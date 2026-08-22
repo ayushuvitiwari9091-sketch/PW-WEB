@@ -12,9 +12,9 @@ import Teligram from './Logo/teligram.webp'
 const Footer = () => {
     return (
         <>
-            <div className='h-140 w-full bg-[#F8F8F8] mt-20'>
+            <div className='h-auto w-full bg-[#F8F8F8] mt-20'>
 
-                <div className='w-[80%] h-full mx-auto flex'>
+                <div className='w-[80%] h-auto pb-5 mx-auto flex'>
 
                     <div className=' h-100 w-5/12 mt-10'>
 
@@ -60,44 +60,43 @@ const Footer = () => {
                         <span className='text-[#888282] mt-2'>Account Deletion</span>
                     </div>
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Company</p>
-                        <span className='text-[#888282] mt-2'>About Us</span>
-                        <span className='text-[#888282] mt-2'>Contact Us</span>
-                        <span className='text-[#888282] mt-2'>Careers</span>
-                        <span className='text-[#888282] mt-2'>Updates</span>
-                        <span className='text-[#888282] mt-2'>Account Deletion</span>
+                        <p className='mb-1 text-2xl'>Our Centres</p>
+                        <span className='text-[#888282] mt-2'>New Delhi</span>
+                        <span className='text-[#888282] mt-2'>Patna</span>
+                        <span className='text-[#888282] mt-2'>Kota</span>
+                        <span className='text-[#888282] mt-2'>Noida</span>
+                        <span className='text-[#888282] mt-2'>Dhanbad</span>
+                        <span className='text-[#888282] mt-2'>Varanasi</span>
+                        <span className='text-[#888282] mt-2'>View All</span>
                     </div>
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Company</p>
-                        <span className='text-[#888282] mt-2'>About Us</span>
-                        <span className='text-[#888282] mt-2'>Contact Us</span>
-                        <span className='text-[#888282] mt-2'>Careers</span>
-                        <span className='text-[#888282] mt-2'>Updates</span>
-                        <span className='text-[#888282] mt-2'>Account Deletion</span>
+                        <p className='mb-1 text-2xl'>Popular Exams</p>
+                        <span className='text-[#888282] mt-2'>IIT JEE</span>
+                        <span className='text-[#888282] mt-2'>NEET</span>
+                        <span className='text-[#888282] mt-2'>GATE</span>
+                        <span className='text-[#888282] mt-2'>Defence</span>
+                        <span className='text-[#888282] mt-2'>UPSC</span>
+                        <span className='text-[#888282] mt-2'>School prep</span>
+                        <span className='text-[#888282] mt-2'>PWSAT</span>
                     </div>
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Company</p>
-                        <span className='text-[#888282] mt-2'>About Us</span>
-                        <span className='text-[#888282] mt-2'>Contact Us</span>
-                        <span className='text-[#888282] mt-2'>Careers</span>
-                        <span className='text-[#888282] mt-2'>Updates</span>
-                        <span className='text-[#888282] mt-2'>Account Deletion</span>
+                        <p className='mb-1 text-2xl'>Connect with us</p>
+                        <span className='text-[#888282] mt-2'>Email us</span>
+                        <span className='text-[#888282] mt-2'>Talk to a counseller</span>
                     </div>
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Company</p>
-                        <span className='text-[#888282] mt-2'>About Us</span>
-                        <span className='text-[#888282] mt-2'>Contact Us</span>
-                        <span className='text-[#888282] mt-2'>Careers</span>
-                        <span className='text-[#888282] mt-2'>Updates</span>
-                        <span className='text-[#888282] mt-2'>Account Deletion</span>
+                        <p className='mb-1 text-2xl'>Quick Links</p>
+                        <span className='text-[#888282] mt-2'>PW Prerna</span>
+                        <span className='text-[#888282] mt-2'>PW SIP</span>
+                        <span className='text-[#888282] mt-2'>PW Gurukulam</span>
+                        <span className='text-[#888282] mt-2'>NIOS</span>
+                        <span className='text-[#888282] mt-2'>Alakh Sir Notes</span>
+                        <span className='text-[#888282] mt-2'>Investor Relations</span>
                     </div>
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Company</p>
-                        <span className='text-[#888282] mt-2'>About Us</span>
-                        <span className='text-[#888282] mt-2'>Contact Us</span>
-                        <span className='text-[#888282] mt-2'>Careers</span>
-                        <span className='text-[#888282] mt-2'>Updates</span>
-                        <span className='text-[#888282] mt-2'>Account Deletion</span>
+                        <p className='mb-1 text-2xl'>Our Products</p>
+                        <span className='text-[#888282] mt-2'>PW Learning App</span>
+                        <span className='text-[#888282] mt-2'>PW Offline Payments (Fin-Z)</span>
                     </div>
 
                     </div>
@@ -109,7 +108,7 @@ const Footer = () => {
 
                     <div>
                         <span>Privacy Policy</span>
-                        <span>Terms of use</span>
+                        <span className='ml-10'>Terms of use</span>
                     </div>
 
                     <div>
