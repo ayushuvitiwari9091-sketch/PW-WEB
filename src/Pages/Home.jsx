@@ -207,24 +207,24 @@ const Home = () => {
 
                     <div className='h-full flex-1 flex flex-col items-center justify-center'>
                         <img src={Test} alt="" className='h-12' />
-                        <p className='font-bold mt-4'>Daily Live</p>
-                        <p className='text=[#818A7B]'>Interactive classes</p>
+                        <p className='font-bold mt-4'>10 Million +</p>
+                        <p className='text=[#818A7B]'>Tests, sample papers & notes</p>
                     </div>
                     <div className="h-20 w-[3px] bg-[#D9DCE1]"></div>
 
 
                     <div className='h-full flex-1 flex flex-col items-center justify-center'>
                         <img src={Offline} alt="" className='h-12' />
-                        <p className='font-bold mt-4'>Daily Live</p>
-                        <p className='text=[#818A7B]'>Interactive classes</p>
+                        <p className='font-bold mt-4'>24 x 7</p>
+                        <p className='text=[#818A7B]'>Doubt solving sessions</p>
                     </div>
                     <div className="h-20 w-[3px] bg-[#D9DCE1]"></div>
 
 
                     <div className='h-full flex-1 flex flex-col items-center justify-center'>
                         <img src={Class} alt="" className='h-12' />
-                        <p className='font- mt-4 mt-4'>Daily Live</p>
-                        <p className='text=[#818A7B]'>Interactive classes</p>
+                        <p className='font- mt-4 mt-4'>100 +</p>
+                        <p className='text=[#818A7B]'>Offline centres</p>
                     </div>
 
                 </div>

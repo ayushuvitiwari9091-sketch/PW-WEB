@@ -6,6 +6,7 @@ import './App.css'
 import Vidyapeeth from './Pages/Vidyapeeth';
 import Powerbatch from './Pages/Powerbatch';
 import Classjunior from './Pages/Classjunior';
+import Pwstore from './Pages/Pwstore';
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
 
           <Route path="/" element={<Home />} />
           <Route path="/vidyapeeth" element={<Vidyapeeth />} />
-          <Route path='/pwstore' element={<Powerbatch />} />
+          <Route path='/pwstore' element={<Pwstore/>} />
           <Route path='/classjunior' element={<Classjunior />} />
           <Route path='/powerbatch' element={<Powerbatch />} />
 
