@@ -8,7 +8,7 @@ const ContactBar = () => {
 
             <span className='flex items-center gap-1.5'> <FaPhoneAlt /> +91 - 7860111134</span>
 
-            <span className='flex items-center gap-1.5'> <IoMail />ayushuvitiwari@gmail.com</span>
+            <span className='flex items-center gap-1.5'> <IoMail />ayushuvitiwari9091@gmail.com</span>
 
         </div>
     )

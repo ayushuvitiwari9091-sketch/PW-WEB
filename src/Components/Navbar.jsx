@@ -10,12 +10,12 @@ const Navbar = () => {
 
         <div className=''><img src={Logo} alt="" className='h-15' /></div>
 
-       <div className='h-full w-150 flex items-center justify-between'>
+       <div className='h-full w-125 flex items-center justify-between'>
          <ul className='w-full flex justify-between items-center text-[#635d5d] font-[600] cursor-pointer'>
             <li><Link to="/vidyapeeth" >Vidyapeeth</Link></li>
             <li><Link to="/pwstore" >PW Store</Link></li>
             <li><Link to="/classjunior">Class 1st - 8th</Link> </li>
-            <li><Link to="/powerbatch">Power Batch</Link> </li>
+            <li><Link to="/testseries">Test Series</Link> </li>
         </ul>
        </div>
 
