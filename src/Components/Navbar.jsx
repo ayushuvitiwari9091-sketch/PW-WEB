@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <>
-    <div className='h-18 w-full shadow-[0_4px_20px_rgba(0,0,0,0.08)] flex items-center justify-evenly px-15 bg-white'>
+    <div className='h-12 w-full sm:h-18 sm:w-full shadow-[0_4px_20px_rgba(0,0,0,0.08)] flex items-center justify-evenly px-15 bg-white sm:h-10 sm:w-50'>
 
         <div className=''><img src={Logo} alt="" className='h-15' /></div>
 
-       <div className='h-full w-125 flex items-center justify-between'>
-         <ul className='w-full flex justify-between items-center text-[#635d5d] font-[600] cursor-pointer'>
+       <div className='h-auto w-50 sm:h-full sm:w-125 flex items-center justify-between'>
+         <ul className='sm:text-[18px] text-[12px] w-full flex justify-between items-center text-[#635d5d] font-[600] cursor-pointer'>
             <li><Link to="/vidyapeeth" >Vidyapeeth</Link></li>
             <li><Link to="/pwstore" >PW Store</Link></li>
             <li><Link to="/classjunior">Class 1st - 8th</Link> </li>

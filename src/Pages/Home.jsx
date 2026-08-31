@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import Topscrollbar from '../Components/Topscrollbar'
 import ContactBar from '../Components/ContactBar'
 import Footer from '../Components/Footer'
+import Login from './Login'
 import Heading from '../Components/Heading'
 import Navbar from '../Components/Navbar'
 import Home1 from './Img/home-img-1.webp'
@@ -151,13 +151,13 @@ const Home = () => {
 
     return (
         <>
+            <Login />
             <div className='fixed top-0 left-0 w-full z-99'>
-                <Topscrollbar />
                 <ContactBar />
                 <Navbar />
             </div>
 
-            <div className='mt-33'></div>
+            <div className='mt-26'></div>
 
             <a href="https://wa.me/9335049033?text=Hello%20sir,%20I%20am%20intersted%20in%20your%20service" target="_blank">
                 <div className='fixed right-2 bottom-0 z-99'>
