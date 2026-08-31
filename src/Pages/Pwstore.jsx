@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Topscrollbar from '../Components/Topscrollbar'
 import ContactBar from '../Components/ContactBar'
 import { FaArrowRight } from "react-icons/fa";
 import Navbar from '../Components/Navbar'
@@ -236,7 +235,6 @@ const Pwstore = () => {
     return (
         <>
             <div className='fixed top-0 left-0 w-full z-99'>
-                <Topscrollbar />
                 <ContactBar />
                 <Navbar />
             </div>

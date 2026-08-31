@@ -1,4 +1,3 @@
-import Topscrollbar from '../Components/Topscrollbar'
 import ContactBar from '../Components/ContactBar'
 import React, { useEffect, useState } from 'react'
 import Navbar from '../Components/Navbar'
@@ -199,7 +198,6 @@ const Vidyapeeth = () => {
     return (
         <>
             <div className='fixed top-0 left-0 w-full z-99'>
-                <Topscrollbar />
                 <ContactBar />
                 <Navbar />
             </div>

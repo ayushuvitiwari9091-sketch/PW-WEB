@@ -52,51 +52,51 @@ const Footer = () => {
                     <div className='ml-3 h-[92%] w-7/12 mt-10 grid grid-cols-3'>
 
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Company</p>
-                        <span className='text-[#888282] mt-2'>About Us</span>
-                        <span className='text-[#888282] mt-2'>Contact Us</span>
-                        <span className='text-[#888282] mt-2'>Careers</span>
-                        <span className='text-[#888282] mt-2'>Updates</span>
-                        <span className='text-[#888282] mt-2'>Account Deletion</span>
+                        <p className='mb-1 text-[18px] font-semibold'>Company</p>
+                        <span className='text-[#888282] mt-2 text-[14px]'>About Us</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Contact Us</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Careers</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Updates</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Account Deletion</span>
                     </div>
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Our Centres</p>
-                        <span className='text-[#888282] mt-2'>New Delhi</span>
-                        <span className='text-[#888282] mt-2'>Patna</span>
-                        <span className='text-[#888282] mt-2'>Kota</span>
-                        <span className='text-[#888282] mt-2'>Noida</span>
-                        <span className='text-[#888282] mt-2'>Dhanbad</span>
-                        <span className='text-[#888282] mt-2'>Varanasi</span>
-                        <span className='text-[#888282] mt-2'>View All</span>
+                        <p className='mb-1 text-[18px] font-semibold'>Our Centres</p>
+                        <span className='text-[#888282] mt-2 text-[14px]'>New Delhi</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Patna</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Kota</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Noida</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Dhanbad</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Varanasi</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>View All</span>
                     </div>
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Popular Exams</p>
-                        <span className='text-[#888282] mt-2'>IIT JEE</span>
-                        <span className='text-[#888282] mt-2'>NEET</span>
-                        <span className='text-[#888282] mt-2'>GATE</span>
-                        <span className='text-[#888282] mt-2'>Defence</span>
-                        <span className='text-[#888282] mt-2'>UPSC</span>
-                        <span className='text-[#888282] mt-2'>School prep</span>
-                        <span className='text-[#888282] mt-2'>PWSAT</span>
+                        <p className='mb-1 text-[18px] font-semibold'>Popular Exams</p>
+                        <span className='text-[#888282] mt-2 text-[14px]'>IIT JEE</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>NEET</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>GATE</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Defence</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>UPSC</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>School prep</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>PWSAT</span>
                     </div>
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Connect with us</p>
-                        <span className='text-[#888282] mt-2'>Email us</span>
-                        <span className='text-[#888282] mt-2'>Talk to a counseller</span>
+                        <p className='mb-1 text-[18px] font-semibold'>Connect with us</p>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Email us</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Talk to a counseller</span>
                     </div>
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Quick Links</p>
-                        <span className='text-[#888282] mt-2'>PW Prerna</span>
-                        <span className='text-[#888282] mt-2'>PW SIP</span>
-                        <span className='text-[#888282] mt-2'>PW Gurukulam</span>
-                        <span className='text-[#888282] mt-2'>NIOS</span>
-                        <span className='text-[#888282] mt-2'>Alakh Sir Notes</span>
-                        <span className='text-[#888282] mt-2'>Investor Relations</span>
+                        <p className='mb-1 text-[18px] font-semibold'>Quick Links</p>
+                        <span className='text-[#888282] mt-2 text-[14px]'>PW Prerna</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>PW SIP</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>PW Gurukulam</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>NIOS</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Alakh Sir Notes</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>Investor Relations</span>
                     </div>
                     <div className='flex flex-col mt-5'>
-                        <p className='mb-1 text-2xl'>Our Products</p>
-                        <span className='text-[#888282] mt-2'>PW Learning App</span>
-                        <span className='text-[#888282] mt-2'>PW Offline Payments (Fin-Z)</span>
+                        <p className='mb-1 text-[18px] font-semibold'>Our Products</p>
+                        <span className='text-[#888282] mt-2 text-[14px]'>PW Learning App</span>
+                        <span className='text-[#888282] mt-2 text-[14px]'>PW Offline Payments (Fin-Z)</span>
                     </div>
 
                     </div>
