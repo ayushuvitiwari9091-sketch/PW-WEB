@@ -104,7 +104,7 @@ const Footer = () => {
                 </div>
 
                 <div className='bg-[#F8F8F8] h-14 w-full'>
-                    <div className=' h-12 w-[80%] mx-auto flex items-center justify-between border-t border-gray-300 text-[#888282]'>
+                    <div className=' h-12 w-[80%] mx-auto flex items-center justify-between border-t border-gray-300 text-[#888282] text-[12px]'>
 
                     <div>
                         <span>Privacy Policy</span>
